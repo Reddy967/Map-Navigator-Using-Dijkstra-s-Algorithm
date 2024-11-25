@@ -1,0 +1,7 @@
+Graph Representation: The graph is represented as a dictionary where each key is a city, and its value is another dictionary containing neighboring cities and their respective distances.
+
+Priority Queue: A min-heap (pq) is used to keep track of the city with the currently shortest known distance.
+
+Distance Dictionary: distances keeps track of the minimum distance found so far for each city, initialized to infinity except for the starting city, which is 0.
+
+Path Reconstruction: The previous_vertices dictionary helps reconstruct the path once the shortest path to the end city is found.
